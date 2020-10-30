@@ -1,25 +1,65 @@
-#EXTM3U name="allen-iptv"
-#EXTINF:-1,CCTV-1高清[RTSP]
-rtsp://60.213.13.203:554/PLTV/88888888/224/3221225871/10000100000000060000000000219040_0.smil
-#EXTINF:-1,CCTV-2高清
-http://192.168.1.4:8012/rtp/239.3.1.60:8084
-#EXTINF:-1,香港无线新闻台
-http://edge19-1.edgeware.hk4.tvb.com/session/0597a7ee-0339-11e9-8f62-005056903a13/qh33qv/newslive/smil:mobile_inews.smil/chunklist_b491520.m3u8&file=.m3u8
-#EXTINF:-1,@TV in乐台
-http://dlhls.live.cnlive.com:1935/cdn/inyuetai/playlist.m3u8
-#EXTINF:-1,东方卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225810/index.m3u8
-#EXTINF:-1,凤凰中文HD
-http://223.82.250.72/live/fhchinese/1.m3u8
-#EXTINF:-1,凤凰资讯
-http://183.251.61.198/PLTV/88888888/224/3221225901/index.m3u8
-#EXTINF:-1,韩国-CBS
-http://cbs-live.gscdn.com/cbs-live/cbs-live.stream/playlist.m3u8
-#EXTINF:-1,韩国●韩国Good
-http://mobliestream.c3tv.com:554/live/goodtv.sdp/playlist.m3u8
-#EXTINF:-1,日本剧场
-http://192.240.127.34:1935/live/cs11.stream/playlist.m3u8
-#EXTINF:-1,CCTV-6高清
-http://121.31.30.90:8085/ysten-business/live/cctv-6/yst.m3u8
-#EXTINF:-1,湖北卫视[RTSP]
-rtsp://60.213.13.203:554/PLTV/88888888/224/3221225879/10000100000000060000000000215740_0.smil
+
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://www.iptv16.com/wp-content/uploads/2019/08/HK-CH-5.jpg" ,无线新闻
+http://155.94.164.191/live.php?id=1
+#EXTINF:-1 tvg-logo="http://www.iptv16.com/wp-content/uploads/2019/08/HK-CH-5.jpg" ,无线财经
+http://155.94.164.191/live.php?id=2
+#EXTINF:-1 tvg-id="" tvg-name="亚视A1" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/80/ATV_A1_logo.jpg/300px-ATV_A1_logo.jpg" group-title="General",A1台
+https://15813114727637862976168173814320.live.prod.hkatv.com/a1_cbr_lo.m3u8
+#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="港台频道",凤凰香港
+http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="天映频道" tvg-language="Chinese" tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/322_300.png" group-title="Movies",Celestial Movies
+http://210.210.155.35/qwr9ew/s/s33/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CHANNEL[V]" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Channel_V_Logo.svg/1200px-Channel_V_Logo.svg.png" group-title="Music",Channel [V]
+rtmp://ivi.bupt.edu.cn:1935/livetv/channelv
+#EXTINF:-1 tvg-id="" tvg-name="Star Sports" tvg-language="" tvg-logo="https://photo.sofun.tw/2013/11/STAR-SPORTS-LOGO.jpg" group-title="Sport",Star Sports
+rtmp://ivi.bupt.edu.cn:1935/livetv/starsports
+#EXTINF:-1 tvg-id="" tvg-name="Thrill" tvg-language="English" tvg-logo="http://console.celestialtiger.com/images/upload/1f6e441382a388940977fd9e165178c42fe0c193.png" group-title="Movies",Thrill
+http://45.126.83.51/qwr9ew/s/s34/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="亞旅衛視" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://i.imgur.com/1wbOhJV.jpg" group-title="Travel",亞旅衛視
+http://hls.jingchangkan.tv/jingchangkan/156722438_0HaM/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="星空衛視" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/8d/Xing_Kong_Wei_Shi.jpg/250px-Xing_Kong_Wei_Shi.jpg" group-title="General",星空衛視
+rtmp://58.200.131.2:1935/livetv/startv
+#EXTINF:-1 tvg-id="" tvg-name="港台電視31" tvg-language="Chinese;Yue Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/RTHK_TV_31.svg/1200px-RTHK_TV_31.svg.png" group-title="General",港台電視31
+https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="港台電視32" tvg-language="Chinese;Yue Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/RTHK_TV_32.svg/1200px-RTHK_TV_32.svg.png" group-title="News",港台電視32
+https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="香港衛視" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://i.imgur.com/wnQPn2d.jpg" group-title="",香港衛視
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="香港開電視" tvg-language="Chinese;Yue Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/e/ed/HK_open_tv_logo.jpg" group-title="General",香港開電視
+http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="鳳凰衛視中文台" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://pbs.twimg.com/profile_images/1246604721462239232/QCKNvVux_400x400.jpg" group-title="",鳳凰衛視中文台
+http://221.179.217.70/PLTV/88888888/224/3221225942/1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="鳳凰資訊" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png" group-title="News",鳳凰衛視資訊台HD
+http://117.169.120.138:8080/live/fhzixun/.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="鳳凰衛視電影台" tvg-language="Chinese" tvg-logo="https://p1.ifengimg.com/a/2018_43/45a9d426b4ae58c.jpg" group-title="",鳳凰衛視電影台
+rtmp://ivi.bupt.edu.cn:1935/livetv/fhdy
+#EXTINF:-1 tvg-id="" tvg-name="RTHK1" tvg-logo="https://od.lk/s/Nl8xNzY2NjE3NThf/RTHK.png" group-title="电台",香港电台第一台
+https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTHK1" tvg-logo="https://od.lk/s/Nl8xNzY2NjE3NThf/RTHK.png" group-title="电台",香港电台第一台
+https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/index_56_a-p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTHK2" tvg-logo="https://od.lk/s/Nl8xNzY2NjE3NThf/RTHK.png" group-title="电台",香港电台第二台
+https://rthkaudio2-lh.akamaihd.net/i/radio2_1@355865/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTHK3" tvg-logo="https://od.lk/s/Nl8xNzY2NjE3NThf/RTHK.png" group-title="电台",香港电台第三台
+https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTHK4" tvg-logo="https://od.lk/s/Nl8xNzY2NjE3NThf/RTHK.png" group-title="电台",香港电台第四台
+https://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTHK5" tvg-logo="https://od.lk/s/Nl8xNzY2NjE3NThf/RTHK.png" group-title="电台",香港电台第五台
+https://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTHK6" tvg-logo="https://od.lk/s/Nl8xNzY2NjE3NThf/RTHK.png" group-title="电台",香港电台第六台
+http://rthkaudio6cnr-lh.akamaihd.net/i/radio6cnr_1@575604/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTHKD100" tvg-logo="https://od.lk/s/Nl8xNzY2NjE3NThf/RTHK.png" group-title="电台",香港D100
+http://68.235.39.19:8000/Channel1-128MP3
+#EXTINF:-1 tvg-id="" tvg-name="RTHK" tvg-logo="https://od.lk/s/Nl8xNzY2NjE3NThf/RTHK.png" group-title="电台",加州星岛
+http://50.7.71.27:9731/;?icy=http
+#EXTINF:-1 tvg-id="" tvg-name="RTHK" tvg-logo="https://od.lk/s/Nl8xNzY2NjE3NThf/RTHK.png" group-title="电台",加拿大A1
+http://s2.voscast.com:9530/;
+#EXTINF:-1 tvg-id="143" tvg-name="香港卫视" tvg-logo="https://zhengxin-pub.bj.bcebos.com/logopic/28fd8629946121053715e428be8295de_fullsize.jpg" group-title="港台频道",香港卫视
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 ,广州综合
+http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=81&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=&Pcontent_id=.m3u8
+#EXTINF:-1 ,广州新闻
+http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=11&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=&Pcontent_id=.m3u8
+#EXTINF:-1 ,广州新闻
+http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=&Fsv_chan_hls_se_idx=11
+
