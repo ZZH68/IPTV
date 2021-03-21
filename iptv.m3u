@@ -1,10 +1,10 @@
 
 #EXTM3U
-#EXTINF:-1 tvg-logo="http://www.iptv16.com/wp-content/uploads/2019/08/HK-CH-5.jpg" ,无线新闻
+#EXTINF:-1 tvg-logo="http://www.iptv16.com/wp-content/uploads/2019/08/HK-CH-5.jpg" ,无线新闻1
 http://www.nettvpro.live/hls/tvb.php?id=1
-#EXTINF:-1 tvg-logo="http://www.iptv16.com/wp-content/uploads/2019/08/HK-CH-5.jpg" ,无线新闻
+#EXTINF:-1 tvg-logo="http://www.iptv16.com/wp-content/uploads/2019/08/HK-CH-5.jpg" ,无线新闻2
 http://ohyeah.gear.host/hktvb.php?id=1
-#EXTINF:-1 tvg-logo="http://www.iptv16.com/wp-content/uploads/2019/08/HK-CH-5.jpg" ,无线新闻
+#EXTINF:-1 tvg-logo="http://www.iptv16.com/wp-content/uploads/2019/08/HK-CH-5.jpg" ,无线新闻3
 http://93.190.139.36:8278/streams/d/inews_twn/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://www.iptv16.com/wp-content/uploads/2019/08/HK-CH-5.jpg" ,无线财经
 http://155.94.164.191/live.php?id=2
